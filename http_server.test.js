@@ -3,7 +3,7 @@ const app = require('./http_server');
 const request = supertest(app);
 
 it('Hello World', done =>{
-    expect(1).toBe(1);
+    expect(2).toBe(2);
     done();
 });
 
